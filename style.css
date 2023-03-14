@@ -1,0 +1,139 @@
+*{
+    color: black;
+}
+body{
+    width: 100%;
+}
+/* style starts here */
+/* header style starts here */
+.header-div{
+    width: 100%;
+    height: 4em;
+    background-color: rgba(223, 225, 221, 0.904);
+}
+.site-title{
+    margin-top: 1%;
+    padding-left: 2%;
+}
+.title-part{
+    width: 80%;
+    float: left;
+}
+.nav-part{
+    text-align: left;
+    float: left;
+    width: 19%;
+    height: 100%;
+}
+.head-a-tag{
+    color: black;
+    text-decoration: none;
+    margin-left: 1%;
+}
+.head-a-tag:hover{
+    color: rgb(254, 254, 254);
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+.nav-td{
+    width: 4%;
+}
+hr.head-hr-tag{
+    margin: 0;
+    height: 1px;
+    background-color: #000000;
+    border: 4px;
+}
+.head-img{
+    width: 100%;
+    position: relative;
+    height: 50%;
+}
+.centered {
+    text-decoration: underline 1px;
+    font-size: 350%;
+	font-weight: 700;
+    color: whitesmoke;
+    background-color: transparent;
+    text-shadow: 2px 2px 1px #000000;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+}
+.description-h5{
+    font-size: 200%;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: transparent;
+    text-shadow: 2px 2px 1px #000000;
+    position: absolute;
+    top: 80%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    opacity: 0.7;
+}
+/* header style ends here */
+/* body style starts here */
+.block{
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul,ol{
+    font-size: 150%;
+    font-weight: bold;
+
+}
+.block-h2{
+    font-weight: bolder;
+}
+/* body style ends here */
+/* footer style starts here */
+.footer-class{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(57, 57, 57);
+    width: 100%;
+    height: 225px;
+}
+.first-part{
+    width: 49%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+}
+button{
+    background-color: rgb(132, 132, 236);
+    color: white;
+}
+.second-part{
+    width: 45%;
+    height: 85%;
+    margin: 1%;
+    float: left;
+}
+.footer-a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer-h4{
+    color: aliceblue;
+}
+label{
+    color: white;
+}
+.third-part{
+    position: relative;
+    top: -8%;
+    left: 24%;
+    width: 80%;
+    height: 10%;
+    float: left;
+}
+p{
+    color: white;
+}
+bold{
+    color: wheat;
+}
+/* footer style ends here */
+/* style ends here */
